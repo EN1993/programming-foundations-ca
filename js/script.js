@@ -70,7 +70,7 @@ function guitarsItem (twoguitars, fourguitars){
 }
 // call the function and assign the return value to innerHTML (#substraction)
 var result = guitarsItem (2, 4);
-console.log(result);
+console.log(result +" guitars");
 
 var assignReturn = document.querySelector ("#subtraction");
 assignReturn.innerHTML += guitarsItem;
@@ -98,26 +98,6 @@ buttonPage.onclick = changeThePage;
 
 //Answeer question 7
 
-/*
-var toys = [
-	{
-		name: "Lego",
-		price: 15.6,
-	},
-	{
-		name: "Master of the Universe",
-		price: "28.3",
-	},
-	{
-		name: "Barbie",
-		price: null,
-	},
-	{
-		name: "Mr Potato Head",
-		price: 89.99,
-	},
-];
-*/
 var buttonPrice = document.querySelector(".price");
 var productToys = document.querySelector("#total");
 var productToysFunction = function (){
@@ -145,7 +125,7 @@ for (var i = 0; i < toys.length; i++) {
 	
 var priceSum = parseFloat(toys[i].price)
 
-if  (toys[i].price !== null) {
+if  (toys[i].price !== NaN) {
 
 	sumTotal += priceSum
 }
