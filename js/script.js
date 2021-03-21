@@ -137,7 +137,6 @@ buttonPrice.addEventListener( "click", productToysFunction);
 /*
 // Notes
 
-
 var toys = [
 	{
 		name: "Lego",
