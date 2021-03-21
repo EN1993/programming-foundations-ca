@@ -154,7 +154,7 @@ productToys.innerHTML = sumTotal;
 };
 buttonPrice.addEventListener( "click", productToysFunction);
 
-
+/*
 // Notes
 
 
